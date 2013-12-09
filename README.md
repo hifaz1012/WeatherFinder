@@ -17,8 +17,8 @@ Eclipse Project Set Up
 -----------------------
 1. GitHub Repository Link: https://github.com/hifaz1012/WeatherFinder.git
 2. Import WeatherFinder Project from GitHub Repository Link to Eclipse as Java Project.
-   File > Import > Projects From Git 
-   Enter GitGitHub Repository Link and complete the remaining steps to import as Java Project.
+   i. Select File > Import > Projects From Git. 
+   ii. Enter GitGitHub Repository Link and complete the remaining steps to import as Java Project.
 3. Set the desired logging file path by editing "log4j.appender.com.File" property present in the "src/log4j.properties" file.
 4. Run JUnit Test Cases present in file : "com.weatherfinder.test.WeatherFinderServiceTest.java" to make sure the project has been correctly setup.
 
