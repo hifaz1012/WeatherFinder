@@ -50,7 +50,7 @@ II. Autodeploy WeatherFinder.war file to Tomcat
    1. Edit build.properties file in WeatherFinder Project to set hostname, port, username and password of Tomcat Manager.
    2. Edit TOMCAT_HOME\conf\tomcat-users.xml to assign "manager-script" role to tomcat manager user.
 	  
-	Example: "<user name="admin" password="admin" roles="manager-gui,manager-script" />"
+	Example: [user name="admin" password="admin" roles="manager-gui,manager-script"]
 
    3. Start Tomcat
    
